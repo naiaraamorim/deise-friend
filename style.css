@@ -5,11 +5,15 @@
   }*/
 body{
   background-color:#6495ED;
-
   height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .chat{
+  
   width: 750px;
   height: 768px;
   left: 345px;
