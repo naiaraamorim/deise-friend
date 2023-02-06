@@ -48,7 +48,7 @@ body{
   margin-top: 10px;
   border-radius: 2rem;
  
-  background-image: url(assets/ov.png);
+  background-image: url(assets/images/ov.png);
   
 
 }
@@ -71,7 +71,7 @@ body{
 
 
   background: #D9D9D9;
-  background-image: url(assets/enviar.png);
+  background-image: url(assets/images/enviar.png);
   background-position: 650px;
   background-repeat: no-repeat;
   border: 1px solid #000000;
