@@ -80,50 +80,61 @@ body{
   width: 60%;
   word-wrap: break-word;
   background-color: #4f5d4f;
-  padding: 10px 18px 10px;
+  padding: 10px 10px 10px 10px;
   border-radius: 10px 10px 10px 0px;
 
 }
 
+.my-chat{
+  width: 60%;
+  word-wrap: break-word;
+  background-color: #4f5d4f;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px 10px 0px 10px;
+  margin: 5px 0 5px 150px;
 
-.cabeca{
-  
-  width: 750px;
+
+}
+
+.chat-input{
+  display: flex;
+  align-items: center;
+  width: 100%;
   height: 65px;
-
-  background: #D9D9D9;
-  border-radius: 30px 30px 0px 0px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 60px;
-  text-align: center;
-  
+  color: #FFFFFF;
+  padding: 15px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
 
 }
 
-.user{
-  display: flexbox;
-  width: 60px;
-  height: 60px;
-  margin-left: 10px;
-  margin-top: 10px;
-  border-radius: 2rem;
+.chat-input input{
+  width: calc(100% - 40px);
+  height: 100%;
+  background: #D9D9D9;
+  border-radius: 50px;
+
+}
+
+.send-btn{
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  overflow: hidden;
+  margin-left:5px;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
  
-  background-image: url(assets/images/ov.png);
-  
-
 }
 
-.msg{
-  width: 251px;
-  height: 52px;
-  margin-left: 70px;
+.send-btn:active{
+  transition:cubic-bezier(0.19, 1, 0.22, 1);
+}
 
-  background: #D9D9D9;
-  border-radius: 30px;
+.send-btn img{
+  width: 60%;
+  height: 60%;
 
 }
 
@@ -142,16 +153,4 @@ body{
   border-radius: 20px;
 
 
-}
-.principal{
-    width: 15%;
-    padding: 15px 0;
-    background: orange;
-    color: white;
-    font-weight: bold;
-    font-size: 15px;
-    border: none;
-    border-radius: 5px;
-    transition: 0.5s background;
-    cursor: pointer;
 }
