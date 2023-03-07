@@ -10,22 +10,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deise Friend</title>
-    <link href="./assets/css/style.css" rel= "stylesheet">
+    <link href="style.css" rel= "stylesheet">
 </head>
 <body>
    <header>
         
    </header>
-    
-   <div class="chat">
+    <div class="container">
+        <!--chat box-->      
+        <div class="chat-box">
+            <!--client-->
+            <div class="client">
+                <img src="assets/images/ov.png" alt="logo">
+                <div class="client-info">
+                    <h2>Deise-Friend</h2>
+                    <p>Online</p>
+                </div> 
+            </div>
+
+            <!--main chat section-->
+            <div class="chats">
+                <div class="client-chat">Olá, me chamo Deise!</div>
+                <div class="my-chat">Hi!</div>
+            </div>
+        </div>
+    </div>
+   <!--  <div class="chat">
         <div class="cabeca">Chatbot Deise-Friend</div>
         <div class="user">
             <div class="msg"></div>
         </div>
         <input type="text" class="inputDialog" placeholder="Entre com uma mensagem">
         
-   </div>
-   <script src="./assets/js/script.js"></script>
-   <script src="./assets/py/ntc.py"></script>
+   </div>-->
+   <script src="script.js"></script>
+   <script src="ntc.py"></script>
 </body>
 </html>
