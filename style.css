@@ -6,7 +6,7 @@
     border: none;
   }
 body{
-  background-color:#6495ED;
+  background-color:#e8f4f8;
   height: 100vh;
   display: flex;
   flex-direction: row;
@@ -34,7 +34,7 @@ body{
 .chat-box{
   width: 400px;
   height: 450px;
-  background-color: #FFFFFF;
+  background-color: #375788;
   overflow: hidden;
   border-radius: 10px;
   position: relative;
@@ -45,7 +45,7 @@ body{
   justify-content: start;
   align-items: center;
   height: 80px;
-  background-color: darksalmon;
+  background-color:  #6495ED;
   padding: 15px;
 }
 
@@ -63,7 +63,7 @@ body{
 }
 
 .client-info p{
-  color: rgb(2, 90, 2);
+  color: rgb(34, 211, 34);
   font-size: 1.2vh;
 }
 
@@ -79,19 +79,21 @@ body{
 .client-chat{
   width: 60%;
   word-wrap: break-word;
-  background-color: #4f5d4f;
+  background-color: #FFFFFF;
   padding: 10px 10px 10px 10px;
   border-radius: 10px 10px 10px 0px;
+  color: #000000;
 
 }
 
 .my-chat{
   width: 60%;
   word-wrap: break-word;
-  background-color: #4f5d4f;
+  background-color: #FFFFFF;
   padding: 10px 10px 10px 10px;
   border-radius: 10px 10px 0px 10px;
   margin: 5px 0 5px 150px;
+  color: #000000;
 
 
 }
@@ -112,7 +114,7 @@ body{
 .chat-input input{
   width: calc(100% - 40px);
   height: 100%;
-  background: #D9D9D9;
+  background: #ffffff;
   border-radius: 50px;
 
 }
